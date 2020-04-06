@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main {
+    width: 700px;
+    height: 500px;
+    margin: 10% auto;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+.subheading {
+    color: hsl(71, 73%, 54%);
+}
+
+.top-container {
+    background-color: white;
+    padding: 2rem;
+}
+
+.top-container > p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.middle-card-1 {
+    background-color: hsl(179, 62%, 43%);
+    position: relative;
+}
+
+.middle-card-2 {
+    background-color: hsl(179, 50%, 55%);
+}
+
+.middle-card-1 > p {
+    margin-bottom: .50rem;
+}
+
+.middle-card-1,
+.middle-card-2 {
+    width: 100%;
+    padding: 2.5rem;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.price {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.per-month {
+    color: hsl(204, 43%, 93%);
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0;
+    position: absolute;
+    bottom: 50px;
+}
+
+@media only screen and (max-width: 699px) {
+    main {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .top-container {
+        width: 90%;
+    }
+    .middle-container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .middle-card-1,
+    .middle-card-2 {
+        width: 90%;
+        padding: 2.5rem;
+        color: white;
+        line-height: 1.5rem;
+    }
+}
+
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
